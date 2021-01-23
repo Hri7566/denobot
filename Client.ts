@@ -1,5 +1,4 @@
 import { EventEmitter } from "https://deno.land/std@0.84.0/node/events.ts";
-import { WebSocket } from "https://deno.land/x/websocket@v0.0.5/mod.ts";
 
 export default class Client extends EventEmitter {
     uri: string;
